@@ -67,7 +67,7 @@ app.use((req, res, next)=>{
 
 
 app.use('/', userRoutes);
-app.use('/campground', campgroundRoutes);
+app.use('/campgrounds', campgroundRoutes);
 app.use('/campgrounds/:id/reviews', reviewRoutes);
 
 
